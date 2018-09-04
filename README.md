@@ -26,7 +26,7 @@ First, begin by cloning a copy of this repository to a directory of your choice.
  
  Then to begin the application.
  ```
- ruby terminalBiasTrainer.rb
+ ruby lib/terminalBiasTrainer.rb
  ```
  You can exit by typing `exit` at the respective prompts, or control+C in the circumstance that it stalls.
 
