@@ -1,0 +1,1 @@
+@Q1 = "For a period of 1 year, each hospital recorded the days on which more than 60 percent of the babies born were boys. Which hospital do you think recorded more such days?\na) The larger hospital\nb) The smaller hospital\nc) About the same (that is, within 5 percent of each other)"
