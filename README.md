@@ -53,5 +53,7 @@ First, begin by cloning a copy of this repository to a directory of your choice.
 ## License
 This project is licensed under the GNU General Public License v3.0 - see the [LICENSE.md](https://github.com/brasscapon/Terminal-Bias-Trainer/blob/master/LICENSE) file for details.
 
+You are permitted to modify, alter, create copies, and distribute this project freely. We would love to see it expanded by other developers to include a larger dataset of questions and ansers and improve on the application's functionality.
+
 ## Acknowledgments
 * Daniel Kahneman & Amon Tversky for their psychology research
