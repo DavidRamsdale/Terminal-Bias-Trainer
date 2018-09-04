@@ -1,7 +1,7 @@
-![Image of welcome screen.](https://i.imgur.com/JQXgWuH.png)
-
 # BIAS TRAINER for Terminal
 This is a terminal app which trains the user on common cognitive biases.
+
+![Image of welcome screen.](https://i.imgur.com/JQXgWuH.png)
 
 We extracted 10 questions and answers from a famous 1974 psychology paper into decision making by Daniel Kahneman and Amon Tversky titled *Judgment under Uncertainty: Heuristics and Biases*. We reworded and formatted the questions and answers so that we could ask the user of the app a question, give them a finite 30 seconds to answer the question with an input field, and then display whether they were correct or not. The answer is then displayed and trains the user in why they were likely to be wrong by providing an explanation of common fallacies, biases, or heuristics (ie mental rules of thumb) that led them to make the decision incorrectly. 
 
