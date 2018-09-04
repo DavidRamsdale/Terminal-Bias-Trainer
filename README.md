@@ -5,6 +5,13 @@ This is a terminal app which trains the user on common cognitive biases.
 
 ## Getting Started
 These instructions will help you get a copy of our program running on your local machine for development and testing purposes.
+### Prerequisites
+For this program to run, you will need to have Ruby installed on your computer. On unix systems (macOS and Linux), open the terminal and type:
+```
+sudo apt-get install ruby
+```
+
+### Installing
 First, begin by cloning a copy of this repository to a directory of your choice.
  ```
  git clone https://github.com/brasscapon/Terminal-Bias-Trainer.git <foldername>
