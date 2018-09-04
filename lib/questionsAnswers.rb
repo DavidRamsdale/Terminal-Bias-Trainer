@@ -5,9 +5,28 @@ A2 = "The correct answer is b) The smaller hospital. You likely scored wrong bec
 Q2 = 1
 B1 = 1
 B2 = 1
+
 Q3 = 2
 C1 = 2
 C2 = 2
+
 Q4 = 3
 D1 = 3
 D2 = 3
+
+Q5 = 
+E1 = 
+E2 = 
+
+Q6 = 
+F1 = 
+F2 = 
+
+Q7 = 
+G 
+
+Q8 = 
+
+Q9 = 
+
+Q10 = 
