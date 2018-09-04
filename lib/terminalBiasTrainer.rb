@@ -6,8 +6,8 @@
 require_relative 'questionsAnswers.rb'
 #require_relative 'countdownTest.rb'
 require_relative 'user.rb'
-@array = [Q1, Q2, Q3, Q4]
-hash = {Q1 => [A1, A2], Q2 => [B1, B2], Q3 => [C1, C2], Q4 => [D1, D2]}
+@array = [Q1, Q2, Q3, Q4, Q5, Q6, Q7, Q8, Q9, Q10]
+hash = {Q1 => [A1, A2], Q2 => [B1, B2], Q3 => [C1, C2], Q4 => [D1, D2], Q5 => [E1, E2], Q6 => [F1, F2], Q7 => [G1, G2], Q8 => [H1, H2], Q9 => [I1, I2], Q10 => [J1, J2]}
 
 #These are our variables
 i=0
