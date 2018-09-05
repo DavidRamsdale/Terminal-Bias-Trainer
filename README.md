@@ -41,7 +41,17 @@ First, begin by cloning a copy of this repository to a directory of your choice.
  You can exit by typing `exit` at the respective prompts, or control+C in the circumstance that it stalls.
  
 ## Project Management
-* To build this application, we collaborated using [Slack](https://slack.com/) and [Trello](https://trello.com/). 
+* To build this application, we collaborated using a whiteboard, [Slack](https://slack.com/) and [Trello](https://trello.com/). 
+* First we began by brainstorming ideas on a whiteboard for our application's purpose. We settled on *solving the problem* of **A Question and Answer based Bias Training application.**
+![Whiteboard](https://github.com/brasscapon/Terminal-Bias-Trainer/blob/master/docs/whiteboard.jpg)
+* We then created as many **user stories** (in the style of Agile) as we needed to meet all of the needs of our project and placed them all in Trello so that we could keep track of the progress on each task.
+![Trello overview](https://github.com/brasscapon/Terminal-Bias-Trainer/blob/master/docs/trello-board.png)
+![Trello completed](https://github.com/brasscapon/Terminal-Bias-Trainer/blob/master/docs/trello.gif)
+
+### Project Timeline
+We only had 2 days to complete the project, so we prioritised tasks according to whether they were core to the user experience and tagged them in blue in Trello. 
+* Day 1: We set out to plan, create user stories, and begin padding out the code for the core features.
+* Day 2: We set out to complete any leftovers from day 1, and then move onto a backlog of auxillary features and stress goals such as colorizing the app using gems.
 
 ## Built With
 * Ruby 2.5.1
@@ -52,7 +62,6 @@ First, begin by cloning a copy of this repository to a directory of your choice.
 * Adam Demirel
 * David Ramsdale
 
-
 ## License
 This project is licensed under the GNU General Public License v3.0 - see the [LICENSE.md](https://github.com/brasscapon/Terminal-Bias-Trainer/blob/master/LICENSE) file for details.
 
@@ -61,5 +70,5 @@ You are permitted to modify, alter, create copies, and distribute this project f
 ## Acknowledgments
 * Daniel Kahneman & Amon Tversky for their psychology research
 
-## Link to repository
+## Share our App
 * [Link to repository](https://github.com/brasscapon/Terminal-Bias-Trainer)
