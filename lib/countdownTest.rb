@@ -1,3 +1,4 @@
+# We attempted a countdown timer which we ommitted due to it clearing the screen each second and disallowing user input into gets field.
 # def timer
 #     i = 30
 #     while i >= 0 do
@@ -8,15 +9,3 @@
 #     i -= 1
 #     end
 # end
-
-
-
-   
-   #
-   #
-   #user_input.join
-   #if user_input[:value]
-   # puts "User entered #{user_input[:value]}"
-   #else
-   # puts "Timer expired"
-   #end

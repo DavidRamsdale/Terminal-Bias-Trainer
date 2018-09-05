@@ -4,7 +4,6 @@ require_relative 'questionsAnswers.rb'
 require_relative 'user.rb'
 require_relative 'welcome.rb'
 require_relative 'feedback_form.rb'
-require_relative 'methods.rb'
 
 # The lines below allow us to use Ruby gems by the respective names inside of our program.
 require 'artii' # We use this one to asciify our app name in the welcome message..
@@ -18,6 +17,12 @@ array
 hash = {Q1 => [A1, A2], Q2 => [B1, B2], Q3 => [C1, C2], Q4 => [D1, D2], 
         Q5 => [E1, E2], Q6 => [F1, F2], Q7 => [G1, G2], Q8 => [H1, H2], 
         Q9 => [I1, I2], Q10 => [J1, J2]}
+
+# Here we defined a method called clear_screen which runs the command 'clear' inside the terminal. 
+def clear_screen 
+    system 'clear'
+end
+
 
 # Below we defined a loop method. This loop method allows the user to make a name for the game, play/exit the game and give feed back. 
 loop do
