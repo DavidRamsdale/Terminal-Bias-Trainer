@@ -32,7 +32,6 @@ loop do
             position = rand(@array.length)
             random_question = @array[position]
             puts @name.score
-            puts
             puts "Question #{j}:".blue
             puts random_question
 
@@ -43,6 +42,7 @@ loop do
                 @name.raise_score
                 start_time = Time.now + 10
                 while (start_time > Time.now) do #
+                puts ''
                 puts "That's Correct.\n\n".green + " #{hash[random_question][1]}" + "\n\nPress <enter> to move on."
                 @input = gets
                 if @input == "\n" then
