@@ -1,6 +1,3 @@
-require 'artii'
-require 'colorize'
-
 def welcome
     welcome_logo = Artii::Base.new
     puts welcome_logo.asciify('BIAS TRAINER').red
@@ -14,6 +11,8 @@ def welcome
     puts "will ask you 10 questions from their paper and reveal to you if you are correct or"
     puts "incorrect, and if incorrect - which mental bias or shortcut likely led you to answering"
     puts "the way you did."
-    sleep(2) #to be prolonged, make it 45 seconds
-    system 'clear'
+    puts ''
+    puts 'Note: You have 30 seconds to read and answer each question.'.rjust(70)
+    puts ''
+    puts 'Click <enter> to begin, type <exit> to quit, or type <feedback> to leave some.'.rjust(60)
 end

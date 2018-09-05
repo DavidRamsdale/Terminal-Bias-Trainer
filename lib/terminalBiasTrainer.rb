@@ -1,71 +1,66 @@
-#puts "Welcome to our app"
-#sleep(2) #to be prolonged, make it 45 seconds
-#Dry this out
-
-#require_relative 'countdownTest.rb'
+require_relative 'countdownTest.rb'
 require_relative 'questionsAnswers.rb'
 require_relative 'user.rb'
 require_relative 'welcome.rb'
+require_relative 'feedback_form.rb'
+require_relative 'methods.rb'
+require 'artii'
+require 'colorize'
 
-welcome
-
-#These are our variables
-
-@array = [Q1, Q2, Q3, Q4, Q5, Q6, Q7, Q8, Q9, Q10]
-hash = {Q1 => [A1, A2], Q2 => [B1, B2], Q3 => [C1, C2], Q4 => [D1, D2], Q5 => [E1, E2], Q6 => [F1, F2], Q7 => [G1, G2], Q8 => [H1, H2], Q9 => [I1, I2], Q10 => [J1, J2]}
+hash = {Q1 => [A1, A2], Q2 => [B1, B2], Q3 => [C1, C2], Q4 => [D1, D2], 
+        Q5 => [E1, E2], Q6 => [F1, F2], Q7 => [G1, G2], Q8 => [H1, H2], 
+        Q9 => [I1, I2], Q10 => [J1, J2]}
 
 loop do
     i=0
     j=1
-    
-    puts "Type <1><start> or <2><exit>.".rjust(50)
+    @array = [Q1, Q2, Q3, Q4, Q5, Q6, Q7, Q8, Q9, Q10]
+    welcome
+    enter = gets.downcase
 
-    selection = gets.chomp.downcase
-    if selection == "1" || selection == "start"
-        
-        #possible method?
-        puts "What is your name?"
-        @input = gets.chomp.downcase
-        system 'clear'
+    if enter == "\n"
+        puts "What is your name?".rjust(45)
+        @input = gets.chomp
+        clear_screen
         @name = User.new(@input)
-        @name.score
-        puts
 
-        while i < 4 do
-            # Gives a random index from the array and stores it in variable position
+        while i < 10 do
             position = rand(@array.length)
-
-            # Storing the question in variable random_question
             random_question = @array[position]
-            puts "Question #{j}"
-
+            puts @name.score
+            puts
+            puts "Question #{j}:".blue
             puts random_question
 
-            answer = gets.chomp.downcase
-            if answer == hash[random_question][0] 
-                system 'clear'
-                puts "Correct" + " #{hash[random_question][1]}"
+            @answer = gets.chomp.downcase
+            if @answer == hash[random_question][0] 
+                clear_screen
+                @name.score
+                puts ''
+                puts "That's Correct.\n\n".green + " #{hash[random_question][1]}"
                 @name.raise_score
-                puts
-                puts @name.score  #FIXME Justify to the right
-                sleep(1)
-                system 'clear'
+                sleep(0) #
+                clear_screen
             else
-                system 'clear'
-                puts "Wrong"
-                sleep(2)
-                system 'clear'
+                clear_screen
+                puts @name.score
+                puts "That's Wrong.\n\n".red + "#{hash[random_question][1]}"
+                sleep(0) #
+                clear_screen
             end
             i += 1
-            j += 1
-            
-            # Delete question from array
+            j += 1   
             @array.delete_at(position)
-            
         end
-    elsif selection == "2" || selection == "exit"
-        system (exit)
-    else 
-        puts "please make a valid selection"
+    elsif enter == "exit\n"
+        clear_screen
+        system(exit)
+    elsif enter == "feedback\n"
+        clear_screen
+        feedback
+    else
+        clear_screen
+        puts "Please make a valid selection."
+        sleep(1)
     end
 end
