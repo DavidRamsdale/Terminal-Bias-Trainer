@@ -39,6 +39,9 @@ First, begin by cloning a copy of this repository to a directory of your choice.
  ruby lib/terminalBiasTrainer.rb
  ```
  You can exit by typing `exit` at the respective prompts, or control+C in the circumstance that it stalls.
+ 
+## Project Management
+* To build this application, we collaborated using [Slack](https://slack.com/) and [Trello](https://trello.com/). 
 
 ## Built With
 * Ruby 2.5.1
@@ -59,4 +62,4 @@ You are permitted to modify, alter, create copies, and distribute this project f
 * Daniel Kahneman & Amon Tversky for their psychology research
 
 ## Link to repository
-* [Link to repository] https://github.com/brasscapon/Terminal-Bias-Trainer
+* [Link to repository](https://github.com/brasscapon/Terminal-Bias-Trainer)
