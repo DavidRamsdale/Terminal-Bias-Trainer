@@ -49,6 +49,7 @@ First, begin by cloning a copy of this repository to a directory of your choice.
 * After defining the main purposes our application set out to achieve, we created a high level user flow framework:
 ![User flow](https://github.com/brasscapon/Terminal-Bias-Trainer/blob/master/docs/project-userflow.png)
 * And then we broke it down into how it would look in pseudocode
+
 ![User flow pseudocode](https://github.com/brasscapon/Terminal-Bias-Trainer/blob/master/docs/project-framework.png)
 
 * Throughout the project we managed our tasks with user stories on trello and added any completed items to the Done list.
